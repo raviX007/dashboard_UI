@@ -26,6 +26,7 @@
     "next": "14.2.3",
     "npx": "^10.2.2",
     "react": "^18",
+    "react-day-picker": "^8.10.1",
     "react-dom": "^18",
     "react-hot-toast": "^2.4.1",
     "shadcn-ui": "^0.8.0",

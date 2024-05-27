@@ -1,5 +1,5 @@
 const config = {
-    apiBaseUrl: 'https://dashboardbackend-production-cd0b.up.railway.app/mobilicis/api',
+    apiBaseUrl: 'https://dashboardbackend-production-a8db.up.railway.app/mobilicis/api',
   };
   
   export default config;

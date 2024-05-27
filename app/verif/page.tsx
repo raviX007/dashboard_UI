@@ -49,11 +49,13 @@ const InputPage = () => {
         token: inputValue,
       });
 
-      const { isValid, message } = response.data;
+      const { isValid, message ,isAdmin} = response.data;
 
-      if (isValid) {
-        router.push('/dashboard');
-      } else {
+      if (isValid&&isAdmin) {
+        router.push('/admin');
+      } else if(isValid){
+        router.push('/dashboard')
+      } else{
         setError(message);
       }
     } catch (error) {
